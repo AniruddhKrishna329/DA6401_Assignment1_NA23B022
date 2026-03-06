@@ -2,8 +2,8 @@ import argparse
 import numpy as np
 import wandb
 import json
-from src.utils.data_loader import DataLoader
-from src.ann.neural_network import NeuralNetwork
+from utils.data_loader import DataLoader
+from ann.neural_network import NeuralNetwork
 from sklearn.metrics import f1_score
 
 def parse_arguments(): #args we pass to train the model
