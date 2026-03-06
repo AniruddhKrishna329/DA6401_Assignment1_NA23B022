@@ -1,6 +1,8 @@
 # Core dependencies
 numpy>=1.21.0
 matplotlib>=3.4.0
+torch>=2.0.0
+torchvision>=0.15.0
 
 # For data loading
 keras>=2.7.0
